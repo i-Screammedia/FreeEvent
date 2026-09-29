@@ -4,6 +4,11 @@
   margin-top: var(--spacing-base);
 }
 
+.text-accent {
+  color: var(--color-primary);
+  font-weight: 800;
+}
+
 .apply-highlight {
   max-width: 560px;
   margin: var(--spacing-xl) auto 0;
