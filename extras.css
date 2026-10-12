@@ -20,6 +20,19 @@
   border-radius: 20px;
 }
 
+.benefits-prize__note {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.6;
+  color: #e03131;
+}
+
+.notice-list li {
+  word-break: keep-all;
+}
+
 .about-brief__item:has(.about-brief__note--required) .about-brief__title {
   margin-bottom: 12px;
 }
@@ -29,28 +42,6 @@
   margin-bottom: clamp(20px, 3vw, 32px);
   color: var(--color-primary);
   font-weight: 700;
-}
-
-.experience-band__prep {
-  margin-top: 14px;
-  font-size: 15px;
-  line-height: 1.6;
-  font-weight: 600;
-  color: #ffffff;
-  text-align: left;
-  word-break: keep-all;
-}
-
-.experience-band__prep a {
-  margin-left: 8px;
-  color: #ffffff;
-  font-weight: 800;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-.experience-band__prep a:hover {
-  color: #fff4ec;
 }
 
 .cta-prep {
@@ -443,12 +434,6 @@
 }
 
 @media (max-width: 768px) {
-  .experience-band__prep a {
-    display: inline-block;
-    margin-left: 0;
-    margin-top: 6px;
-  }
-
   .contact-grid {
     grid-template-columns: 1fr;
   }
