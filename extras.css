@@ -13,6 +13,16 @@
   margin: var(--spacing-xl) 0 0;
 }
 
+.benefits-prize__lead {
+  margin: 0 0 20px;
+  text-align: center;
+  font-size: clamp(15px, 1.8vw, 18px);
+  line-height: 1.7;
+  font-weight: 600;
+  color: var(--color-ink);
+  word-break: keep-all;
+}
+
 .benefits-prize img {
   display: block;
   width: 100%;
